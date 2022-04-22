@@ -60,39 +60,4 @@ const PieChart = ({ pieData }) => {
   return <Pie {...config} />;
 };
 
-// import { Pie } from "@ant-design/plots";
-
-// const PieChart = ({ pieData }) => {
-//   const config = {
-//     appendPadding: 10,
-//     data: pieData,
-//     angleField: "value",
-//     colorField: "type",
-//     radius: 0.5,
-//     label: {
-//       type: "spider",
-//       labelHeight: 28,
-//       content: "{name} \n{percentage}",
-//     },
-//     interactions: [
-//       {
-//         type: "element-selected",
-//       },
-//       {
-//         type: "element-active",
-//       },
-//     ],
-//     state: {
-//       active: {
-//         animate: { duration: 100, easing: "easeLinear" },
-//         style: {
-//           lineWidth: 2,
-//           stroke: "#000",
-//         },
-//       },
-//     },
-//   };
-//   return <Pie {...config} />;
-// };
-
 export default PieChart;
